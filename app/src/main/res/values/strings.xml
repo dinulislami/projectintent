@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">projentintentdl225</string>
+
+    <string-array name="spinnerCountry">
+        <item>Indonesia</item>
+        <item>Rusia</item>
+        <item>jerman</item>
+        <item>Japan</item>
+    </string-array>
+</resources>
