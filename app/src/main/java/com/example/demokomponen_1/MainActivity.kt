@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        textview_date = this.editDateajadl
+        textview_date = this.tanggal
 
 
         textview_date!!.text = "Date Release"
@@ -69,18 +69,18 @@ class MainActivity : AppCompatActivity() {
 
             }
         })
-        val title =  findViewById<EditText>(R.id.titledl)
-        val directed =  findViewById<EditText>(R.id.directeddl)
-        val home =  findViewById<EditText>(R.id.homedl)
-        val date = findViewById<TextView>(R.id.editDateajadl)
-        val button = findViewById<Button>(R.id.processajadl)
+        val title =  findViewById<EditText>(R.id.email)
+        val directed =  findViewById<EditText>(R.id.name)
+        val home =  findViewById<EditText>(R.id.password)
+        val date = findViewById<TextView>(R.id.tanggal)
+        val button = findViewById<Button>(R.id.login)
 
-        cb_thriller = findViewById(R.id.cb_thrillerdl) as CheckBox
-        cb_comedy = findViewById(R.id.cb_comedydl) as CheckBox
-        cb_horor = findViewById(R.id.cb_horordl) as CheckBox
-        cb_romance = findViewById(R.id.cb_romancedl) as CheckBox
-        cb_action = findViewById(R.id.cb_actiondl) as CheckBox
-        cb_fantasy = findViewById(R.id.cb_fantasydl) as CheckBox
+        cb_thriller = findViewById(R.id.cb_basket) as CheckBox
+        cb_comedy = findViewById(R.id.cb_sepakbola) as CheckBox
+        cb_horor = findViewById(R.id.cb_renang) as CheckBox
+        cb_romance = findViewById(R.id.cb_volly) as CheckBox
+        cb_action = findViewById(R.id.cb_takraw) as CheckBox
+        cb_fantasy = findViewById(R.id.cb_batminton) as CheckBox
 
         rb_13 = findViewById(R.id.rb_13dl) as RadioButton
         rb_18 = findViewById(R.id.rb_18ajadl) as RadioButton
